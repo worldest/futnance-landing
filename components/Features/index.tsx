@@ -38,26 +38,14 @@ const Features = () => {
         <div className="container">
           <h1 style={{fontWeight: "900", fontSize: 30}}>Premier League Starts Soon</h1>
           <br />
-          <Link
-            href="https://futnance-new.vercel.app/"
-            className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-          >
-            🔥 Subscribe for Premium Tips
-          </Link>
-          {" "}
+         
           <Link
             href="/"
             className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
           >
             Join Telegram Channel
           </Link>
-          {" "}
-          <Link
-            href="https://futnance-new.vercel.app/premium"
-            className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-          >
-            🔥 200 Odds Tips
-          </Link>
+          
           <br /><br />
         <div id="DOM_element_id_in_your_website_1691140881637"></div>
         
