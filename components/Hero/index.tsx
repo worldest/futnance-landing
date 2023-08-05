@@ -34,32 +34,31 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-6 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        style={{
+          background: "url('https://gifdb.com/images/high/footballer-kylian-mbappe-championship-victory-run-2z1ucihtg15pv6rj.gif')",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundColor: "#496bf670"
+        }}
+        className="relative z-10 overflow-hidden"
       >
-        <div className="container">
+        <div className="container-fluid  pt-[120px] pb-6 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]" style={{backgroundColor: "#496bf680", width: "100% !important", }}>
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
+            <div className="w-full px-1">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                className="wow fadeInUp mx-auto max-w-[1000px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Free and Premium tips
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                Tips with over 95% accuracy
                 </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Get free and premium sport tips delivered to you with over 90% accuracy.
+                <p className="mb-12 text-white font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                At Futnance, we take pride in being recognized as the premier football prediction site worldwide. We cater to passionate football enthusiasts who aspire to make profitable gains from their love for the game. If you're seeking a platform that consistently predicts football matches accurately and prioritizes your success as a punter using data and artificial intelligence, then you've arrived at the perfect destination. Futnance stands as one of the finest football prediction sites, boasting a global reputation for delivering precise football tips.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="/"
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                   🔥 Premium Tips
-                  </Link>
-                </div>
+                
                 <br />
-                <marquee><h2 style={{fontSize: 25, fontWeight: "900"}}>Today&apos;s Free Tips</h2></marquee>
-                <br />
+                <marquee><h2 style={{fontSize: 25, fontWeight: "900", color: "#fff"}}>Today&apos;s Free Tips</h2></marquee>
+                <br />      <br />
                 <div className="grid grid-cols-2 gap-x-8 gap-y-14 md:grid-cols-4 lg:grid-cols-4">
                
           {
@@ -74,15 +73,24 @@ const Hero = () => {
               
             })
           }
+          
           </div>
-                
+          <br /><br />
+          <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  <Link
+                    href="https://futnance-new.vercel.app/"
+                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                   🔥 View Premium Tips
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
          
         </div>
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          {/* <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
@@ -217,7 +225,7 @@ const Hero = () => {
                 <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
               </linearGradient>
             </defs>
-          </svg>
+          </svg> */}
         </div>
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
