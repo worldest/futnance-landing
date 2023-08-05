@@ -53,7 +53,7 @@ const Hero = () => {
                 Tips with over 95% accuracy
                 </h1>
                 <p className="mb-12 text-white font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                At Futnance, we take pride in being recognized as the premier football prediction site worldwide. We cater to passionate football enthusiasts who aspire to make profitable gains from their love for the game. If you're seeking a platform that consistently predicts football matches accurately and prioritizes your success as a punter using data and artificial intelligence, then you've arrived at the perfect destination. Futnance stands as one of the finest football prediction sites, boasting a global reputation for delivering precise football tips.
+                At Futnance, we take pride in being recognized as the premier football prediction site worldwide. We cater to passionate football enthusiasts who aspire to make profitable gains from their love for the game. If you are seeking a platform that consistently predicts football matches accurately and prioritizes your success as a punter using data and artificial intelligence, then you have arrived at the perfect destination. Futnance stands as one of the finest football prediction sites, boasting a global reputation for delivering precise football tips.
                 </p>
                 
                 <br />
