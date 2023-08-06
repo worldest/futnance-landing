@@ -1,6 +1,7 @@
 import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
 import Image from "next/image";
+import Link from "next/link";
 
 const BlogDetailsPage = () => {
   return (
@@ -45,7 +46,12 @@ USDT (ERC-20)
 	•	    Your account would be upgraded as soon as payment is received and confirmed.<br />
 
                   </p>
-                  
+                  <Link
+                    href="https://futnance-new.vercel.app/"
+                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                   Get Started
+                  </Link>
                 </div>
               </div>
             </div>

@@ -23,6 +23,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "app/howtopay/howtopaycountries.js", "app/howtopay/page.jsx"],
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "app/howtopay/howtopaycountries.js", "app/howtopay/page.tsx"],
   "exclude": ["node_modules"]
 }
