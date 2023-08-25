@@ -16,7 +16,7 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Premium Tips",
-    path: "https://futnance-new.vercel.app/",
+    path: "https://app.futnance.com/login",
     newTab: true,
   },
   {

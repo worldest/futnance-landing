@@ -47,7 +47,7 @@ USDT (ERC-20)
 
                   </p>
                   <Link
-                    href="https://futnance-new.vercel.app/"
+                    href="https://app.futnance.com/login"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                    Get Started
